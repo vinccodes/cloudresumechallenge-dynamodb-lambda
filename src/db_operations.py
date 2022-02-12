@@ -55,10 +55,10 @@ def initialize_count(property,dynamodb=None):
         Item={
             'property': property,
             'visitor_total': 0
-        }
+        },
     )
 
-    return response
+    return response['Item']
 
 
 """ 

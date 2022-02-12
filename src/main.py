@@ -2,9 +2,13 @@ import db_operations
 
 
 def main():
-    
-    response = db_operations.delete_table()
+    # db_operations.delete_table()
+    # db_operations.create_visitor_table()
+    # response = db_operations.initialize_count("count")
+    # response = db_operations.get_count("count",)
+    response = db_operations.update_count("count",)
     print(response)
+
 
     #response = db_operations.initialize_count("count")
     #response = db_operations.update_count("count",)
